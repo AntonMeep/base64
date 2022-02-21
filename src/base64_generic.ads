@@ -11,6 +11,10 @@ package Base64_Generic with
    Pure,
    Preelaborate
 is
+   pragma Compile_Time_Error
+     (Element'Modulus /= 256,
+      "'Element' type must be mod 2**8, i.e. represent a byte");
+
    Base64_Error : exception;
 
    function Encode (Input : Element_Array) return String;

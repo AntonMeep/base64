@@ -8,5 +8,4 @@ package Base64.Standard is new Base64_Generic
    Element_Array => Stream_Element_Array,
 
    Character_To_Value => Standard_Character_To_Value,
-   Value_To_Character => Standard_Value_To_Character,
-Padding => '=');
+   Value_To_Character => Standard_Value_To_Character, Padding => '=');
