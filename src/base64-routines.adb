@@ -1,4 +1,5 @@
 pragma Ada_2012;
+
 package body Base64.Routines is
    function Standard_Character_To_Value (C : Character) return Element is
      (case C is when 'A' => 0, when 'B' => 1, when 'C' => 2, when 'D' => 3,

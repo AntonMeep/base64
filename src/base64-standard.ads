@@ -1,3 +1,5 @@
+pragma Ada_2012;
+
 with Ada.Streams; use Ada.Streams;
 
 with Base64_Generic;

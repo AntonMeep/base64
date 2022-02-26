@@ -1,3 +1,5 @@
+pragma Ada_2012;
+
 generic
    type Element is mod <>;
    type Index is range <>;
