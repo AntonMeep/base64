@@ -1,6 +1,6 @@
 name = "base64"
 description = "Base64 encoding/decoding routines"
-version = "1.0.0"
+version = "1.0.1"
 website = "https://github.com/AntonMeep/base64"
 licenses = "ISC"
 tags = ["base64"]
